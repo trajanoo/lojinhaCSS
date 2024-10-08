@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendas.css">
+</head>
+<body>
+    <header>
+        <h1>Loja do Trajano</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="historico.html">Histórico</a>
+    </nav>
+
+    <h2>Formulário de Vendas</h2>
+
+    <form action="#">
+        <div>
+            <label for="produto">Produto: </label>
+            <input type="text" id="produto" name="produto">
+        </div>
+
+        <div>
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="preco">
+        </div>
+
+        <div>
+            <label for="pagamento">Forma de Pagamento:</label>
+            <input type="text" name="pagamento" id="pagamento">
+        </div>
+
+        <div>
+            <button type="submit">Concluir Venda</button>
+        </div>
+    </form>
+
+    <ul>
+        <li>
+            <div class="comida-item">
+                <p class="nome">Pastel de Vento</p>
+                <img src="ImagemComidas/Salsicha vegana.webp" alt="Pastel de Vento" width="100px">
+            </div>
+        </li>
+        <li>
+            <div class="comida-item">
+                <p class="nome">Caviar de Pipoca</p>
+                <img src="ImagemComidas/Ovo em lata.webp" alt="Caviar de Pipoca" width="100px">
+            </div>
+        </li>
+        <li>
+            <div class="comida-item">
+                <p class="nome">Mousse de Jiló</p>
+                <img src="ImagemComidas/salsicha.jpeg" alt="Mousse de Jiló" width="100px">
+            </div>
+        </li>
+        <li>
+            <div class="comida-item">
+                <p class="nome">Pão com Ar</p>
+                <img src="ImagemComidas/Cacetinho.jfif" alt="Pão com Ar" width="100px">
+            </div>
+        </li>
+        <li>
+            <div class="comida-item">
+                <p class="nome">Brigadeiro de Alho</p>
+                <img src="ImagemComidas/pepino milanesa.jpeg" alt="Brigadeiro de Alho" width="100px">
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
